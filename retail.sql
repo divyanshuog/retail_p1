@@ -172,3 +172,5 @@ select *,
 		when extract(hour from sale_time) > 17 then 'Evening'
 	end as shift
 from retail
+
+-- End of code
